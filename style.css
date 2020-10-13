@@ -1,0 +1,86 @@
+body{ margin: 0px;
+  overflow: hidden;
+  background-color: #000033;
+}
+
+#btn-play{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  height: 40px;
+  padding: 10px;
+  font: Arial 30px;
+  border-radius: 8px;
+  border: none;
+  background: lightseagreen;
+  color: #fff;
+}
+
+#btn-stop{
+  width: 5%;
+  position: absolute;
+  bottom: 30px;
+  right: 80px;
+  height: 40px;
+  padding: 10px;
+  font: Arial 30px;
+  border-radius: 8px;
+  border: none;
+  background: red;
+  color: #fff;
+}
+
+.song-list{
+position: absolute;
+font-size: 25px;
+display: block;
+
+}
+.colors{
+  position: absolute;
+  display: inline-block;
+  left: 30%;
+  cursor: pointer;
+
+}
+.RGB, .HSL {
+  padding: 2px;
+  color: bisque;
+  margin: 8px;
+  width: 120%;
+  text-align: center;
+  cursor: pointer;
+  font-size: x-large;
+  border-style: ridge;
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-color: burlywood;
+}
+.RGB-active, .HSL-active{
+  background-color:royalblue;
+  padding: 2px;
+  color: bisque;
+  margin: 8px;
+  width: 120%;
+  text-align: center;
+  cursor: pointer;
+  font-size: x-large;
+  border-style: ridge;
+  border-radius: 5px;
+  border-width: 0.5px;
+  border-color: burlywood;
+}
+li {
+  color: wheat;
+  border-color: rebeccapurple;
+  padding: 2px;
+  margin: 5px;
+  list-style: none;
+  
+ 
+}
+li:hover{
+  cursor: pointer;
+  border-style: ridge;
+  border-width: 1.5px;
+}
